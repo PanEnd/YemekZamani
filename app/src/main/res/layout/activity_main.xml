@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yemekzamani.MainActivity">
+
+    <ImageView
+        android:id="@+id/chef_hat"
+        android:layout_width="156dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/chef_hat"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/malzemeTarif"
+        android:text="@string/giris_malzeme"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="#b07cd6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp" />
+
+    <ImageView
+        android:id="@+id/food"
+        android:layout_width="181dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="190dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/food"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/yemekTarifi"
+        android:text="@string/giris_tarif"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        android:background="#b07cd6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="90dp" />
+
+    <ImageView
+        android:id="@+id/note"
+        android:layout_width="139dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="410dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/note"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_note"
+        android:text="@string/note_text"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        android:background="#b07cd6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="530dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="70dp" />
+
+    <FrameLayout
+        android:id="@+id/uyeGirisKayitFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</RelativeLayout>

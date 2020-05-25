@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">YemekZamani</string>
+    <string name="giris_malzeme">Malzemelerimle Yemek Yapmak İstiyorum</string>
+    <string name="giris_tarif">Yemek Tarifi Almak İstiyorum</string>
+    <string name="malzeme_sec">Malzemelerinizi Seçiniz:</string>
+    <string name="btn_sec_text">SEÇ</string>
+    <string name="yemek_sec">Yapmak İstediğiniz Yemeği Seçiniz:</string>
+    <string name="note_text">Alınacakları Not Almak İstiyorum</string>
+    <string name="ekle">Ekle</string>
+    <string name="kaydet">Kaydet</string>
+    <string-array name="list_malzeme">
+        <item>Domates</item>
+        <item>Biber</item>
+        <item>Soğan</item>
+        <item>Patates</item>
+        <item>Yumurta</item>
+        <item>Yoğurt</item>
+        <item>Tereyağ</item>
+        <item>Zeytinyağı</item>
+        <item>Pirinç</item>
+        <item>Bulgur</item>
+        <item>Mercimek</item>
+        <item>Salça</item>
+        <item>Brokoli</item>
+        <item>Et</item>
+        <item>Tavuk</item>
+        <item>Sarımsak</item>
+        <item>Şehriye</item>
+        <item>Toz Kırmızı Biber</item>
+        <item>Havuç</item>
+    </string-array>
+
+    <string-array name="list_yemek">
+        <item>1. Menemen</item>
+        <item>2. Bulgur Pilavı</item>
+        <item>3. Pirinç Pilavı</item>
+        <item>4. Mercimek Çorbası</item>
+        <item>5. Et Sote</item>
+        <item>6. Tavuk Sote</item>
+        <item>7. Brokoli Salatası</item>
+        <item>8. Havuç Tarator</item>
+        <item>9. Çökertme</item>
+    </string-array>
+
+    <string-array name="menemen_malzeme_tarif">
+        <item>Domates</item>
+        <item>Biber</item>
+        <item>Soğan</item>
+        <item>Yumurta</item>
+        <item>Tereyağ</item>
+        <item>Önce yağda ince doğranmış soğanları kavurun. Daha sonra domates ve biberi ekleyip domates suyunu salana kadar kavurun. En son yumurtayı ve tuzu ekleyin. Afiyet olsun.</item>
+    </string-array>
+
+    <string-array name="bulgurPilavı_malzeme_tarif">
+        <item>Tereyağ</item>
+        <item>Bulgur</item>
+        <item>Şehriye</item>
+        <item>Önce yağda şehriyeleri kavurun. Şehriyeler kavrulduktan sonra bulguru ekleyip biraz daha kavurmaya devam edin. En son suyunu ve istediğiniz baharatlarla beraber tuz ekleyip pişmeye bırakın. Afiyet olsun.</item>
+    </string-array>
+
+    <string-array name="pirincPilav_malzeme_tarif">
+        <item>Şehriye</item>
+        <item>Tereyağ</item>
+        <item>Pirinç</item>
+        <item>Önce yağda şehriyeleri kavurun. Şehriyeler kavrulduktan sonra pirinci ekleyip biraz daha kavurmaya devam edin. En son suyunu ve tuzunu ekleyip pişmeye bırakın. Afiyet olsun.</item>
+    </string-array>
+
+    <string-array name="mercimekÇorbası_malzeme_tarif">
+        <item>Patates</item>
+        <item>Havuç</item>
+        <item>Soğan</item>
+        <item>Toz Kırmızı Biber</item>
+        <item>Mercimek</item>
+        <item>Tereyağ</item>
+        <item>Zeytinyağı</item>
+        <item>Önce patates havuç ve soğanları ince ince doğrayıp zeytinyağı eklediğiniz tencerede kavurmaya başlayın. Üstüne yıkanmış mercimekleri tuz ve toz kırmızı biberi ekleyip kavurmaya devam edin. 2-3 dakika sonra su ekleyip kaynamaya bırakın. Tüm malzemeler piştikten sonra çorbayı blenderdan geçirip üstüne tereyağ döküp servis edebilirsiniz. Afiyet olsun.</item>
+    </string-array>
+
+    <string-array name="etSote_malzeme_tarif">
+        <item>Et</item>
+        <item>Soğan</item>
+        <item>Biber</item>
+        <item>Domates</item>
+        <item>Zeytinyağı</item>
+        <item>Önce kuşbaşı doğranmış etlerin yağsız bir tavada suyunu çektirin. Ardından etleri alıp tavaya yağ koyarak soğan ve biberleri kavurun. Soğan ve biberler kavrulduktan sonra suyunu çektirdiğiniz etleri ekleyip kavurmaya devam edin. Etler kızarmaya başlayınca domates ve tuz ekleyin ve suyunu çekene kadar pişirin. Piştikten sonra baharatlarla servis edebilirsiniz. Afiyet olsun.</item>
+    </string-array>
+
+    <string-array name="tavukSote_malzeme_tarif">
+        <item>Et</item>
+        <item>Soğan</item>
+        <item>Biber</item>
+        <item>Zeytinyağı</item>
+        <item>Önce kuşbaşı doğranmış tavukların yağsız bir tavada suyunu çektirin. Ardından tavukları alıp tavaya yağ koyarak soğan ve biberleri kavurun. Soğan ve biberler kavrulduktan sonra suyunu çektirdiğiniz tavukları ekleyip kavurmaya devam edin. Tavuklar kızarmaya başlayınca kekik ve tuz ekleyin 5 dakika daha pişirmeye devam edin. Piştikten sonra baharatlarla servis edebilirsiniz. Afiyet olsun.</item>
+    </string-array>
+
+    <string-array name="brokoliSalata_malzeme_tarif">
+        <item>Brokoli</item>
+        <item>Sarımsak</item>
+        <item>Zeytinyağı</item>
+        <item>Limon</item>
+        <item>Önce brokolileri haşlayın. Brokoli haşlanırken bir kaba ezilmiş sarımsak zeytinyağı limon ve tuz ekleyin. Brokoliler haşlandıktan sonra üzerine bu sosu döküp servis edebilirsiniz. Afiyet olsun.</item>
+    </string-array>
+
+    <string-array name="havucTarator_malzeme_tarif">
+        <item>Havuç</item>
+        <item>Yoğurt</item>
+        <item>Zeytinyağı</item>
+        <item>Sarımsak</item>
+        <item>Rendelenmiş havuçları zeytinyağında kavurun. Hvuçları biraz yumuşadıktan sonra sarımsak ve tuz eklenmiş yoğurdun içine ekleyin. Havuç ve yoğurdu karıştırdıktan sonra üzerine biraz naneyle servis edebilirsiniz. Afiyet olsun.</item>
+    </string-array>
+
+    <string-array name="cokertme_malzeme_tarif">
+        <item>Patates</item>
+        <item>Et</item>
+        <item>Yoğurt</item>
+        <item>Salça</item>
+        <item>Toz Kırmızı Biber</item>
+        <item>Tereyağı</item>
+        <item>Zeytinyağı</item>
+        <item>Önce etleri ince ince doğrayıp suyunu çektirin. Daha sonra zeytinyağı ile kavurup üzerine salça tuz ve istediğiniz baharatları atın. Daha sonra patatesleri kibrit şeklinde kesin ve kızartın. Kızarmış patatesleri bir tabağa alın. Üzerine etleri, onun üstüne yoğurdu ve en üste de kırmızı biberli tereyağ ekleyip servis edebilirsiniz. Afiyet olsun.</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sil">SİL</string>
+
+
+</resources>
